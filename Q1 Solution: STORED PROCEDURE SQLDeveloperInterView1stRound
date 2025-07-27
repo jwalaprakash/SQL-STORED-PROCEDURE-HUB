@@ -88,6 +88,8 @@ END;
 
 
 
+
+Now we are in a position to execute the STORED PROCEDURE
 -- It will Insert a new employee data into the employee table, but before that it will creating a new designation id and department id
 EXEC EMPLOYEE_COMMIT
     @EMP_CODE = 'EMP1001',
